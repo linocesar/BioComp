@@ -1,0 +1,19 @@
+'.source.perl':
+  'codegenetico':
+    'prefix': 'genetic'
+    'body': '%codegenetico =("ttt" => "Phe", "tct" => "Ser", "tat" => "Tir", "tgt" => "Cis",\n
+            \t\t\t\t\t\t\t\t"ttc" => "Phe", "tcc" => "Ser", "tac" => "Tir", "tgc" => "Cis",\n
+            \t\t\t\t\t\t\t\t"tta" => "Leu", "tca" => "Ser", "taa" => "TER", "tga" => "TER",\n
+            \t\t\t\t\t\t\t\t"ttg" => "Leu", "tcg" => "Ser", "tag" => "TER", "tgg" => "Trp",\n
+            \t\t\t\t\t\t\t\t"ctt" => "Leu", "cct" => "Pro", "cat" => "His", "cgt" => "Arg",\n
+            \t\t\t\t\t\t\t\t"ctc" => "Leu", "ccc" => "Pro", "cac" => "His", "cgc" => "Arg",\n
+            \t\t\t\t\t\t\t\t"cta" => "Leu", "cca" => "Pro", "caa" => "Gln", "cga" => "Arg",\n
+            \t\t\t\t\t\t\t\t"ctg" => "Leu", "ccg" => "Pro", "cag" => "Gln", "cgg" => "Arg",\n
+            \t\t\t\t\t\t\t\t"att" => "Ile", "act" => "Tre", "aat" => "Asn", "agt" => "Ser",\n
+            \t\t\t\t\t\t\t\t"atc" => "Ile", "acc" => "Tre", "aac" => "Asn", "agc" => "Ser",\n
+            \t\t\t\t\t\t\t\t"ata" => "Ile", "aca" => "Tre", "aaa" => "Lis", "aga" => "Arg",\n
+            \t\t\t\t\t\t\t\t"atg" => "Met", "acg" => "Tre", "aag" => "Lis", "agg" => "Arg",\n
+            \t\t\t\t\t\t\t\t"gtt" => "Val", "gct" => "Ala", "gat" => "Asp", "ggt" => "Gli",\n
+            \t\t\t\t\t\t\t\t"gtc" => "Val", "gcc" => "Ala", "gac" => "Asp", "ggc" => "Gli",\n
+            \t\t\t\t\t\t\t\t"gta" => "Val", "gca" => "Ala", "gaa" => "Glu", "gga" => "Gli",\n
+            \t\t\t\t\t\t\t\t"gtg" => "val", "gcg" => "Ala", "gag" => "Glu", "ggg" => "Gli");\n'
