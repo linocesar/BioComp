@@ -6,7 +6,8 @@ my $tamanhoQuery;
 my $queryDna;
 my $contador = 0;
 my $match = 0;
-my @lista;
+my @lista; #armazena os indices de ocorrencia da query
+
 #pre-processamento
 #Entrada dos dados
 do{
@@ -26,12 +27,13 @@ do{
 
 
       $queryDna = substr($DNA, $contador, $tamanhoQuery);
-      print $queryDna."\n";
+      #print $queryDna."\n";
       #print $contador."\n";
-      if($query eq $queryDna){
+      if($query eq $queryDna)
+      {
         $match = 1;
         push(@lista, $contador);
-            }
+      }
 
       $contador++;
 
