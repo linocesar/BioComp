@@ -24,8 +24,6 @@ do{
 
 
 do{
-
-
       $queryDna = substr($DNA, $contador, $tamanhoQuery);
       #print $queryDna."\n";
       #print $contador."\n";
