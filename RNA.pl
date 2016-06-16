@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 #declaração das variavéis.
-my $rna = "AGUCUACUGCAGUCAGUACAUGCAUUGAUC"; #string rna
+my $rna = "AGUCUACUGCAGUCAGUACAUGCAUUGAUCCUAAGGGACAUACCA"; #string rna
 my $trinca;#trinca
 my $l = length $rna; #tamanho da sequencia rna
 my $restoRna; #
