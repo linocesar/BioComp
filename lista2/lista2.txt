@@ -1,0 +1,13 @@
+1. Desenvolva um programa que imprima em tela os valores de 10 até 101;
+
+2. Desenvolva um programa que solicite ao usuários dois números, após isto,
+imprima os valores existentes entre estes números.
+
+3. Solicite ao usuário informar uma sequência biológica: DNA ou RNA, em seguida informe
+se trata-se de uma sequência de DNA ou RNA.
+
+4. Dada uma sequência de DNA, informada pelo usuário, informe a quantidade de cada uma das bases
+presentes.
+
+5. Considerando uma sequência de DNA: GTGTCGATCGATAGTCGATCAGCTAGCTAGTCA, utilize o k-mer 4 para apresentar
+apenas aqueles 4-mers que apresentam frequência superior a 1.

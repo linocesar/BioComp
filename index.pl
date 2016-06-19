@@ -6,13 +6,8 @@
 #de <string2> em <string1>. Caso contrário retorna -1;.
 
 my $nome = "RommelRommel";
-my $busca = "";
+my $busca = "l";
 my $indice = index($nome,$busca);
-my $a = "ATG";
-my $b = "ATk";
 
 
-
-print ($a eq $b);
-print "\n";
-#print $indice."\n";
+print $indice."\n";

@@ -13,10 +13,8 @@ for(my $i = 0; $i < scalar @seq1; $i++ ){
 if($seq1[$i] ne $seq2[$i])
 	{
 	$hamming++;
-	}	
+	}
 
-
-	
 }
 
 print $hamming."\n";
