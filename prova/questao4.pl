@@ -1,0 +1,4 @@
+#!/usr/bin/env perl
+
+ 1- TIPAGEM DINÂMICA
+ 2- PARADGMA MULTIFUNCIONAL
