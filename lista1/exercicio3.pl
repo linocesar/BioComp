@@ -1,6 +1,9 @@
 #!/usr/bin/perl
-
-%codegenetico =("ttt" => "phe", "tct" => "ser", "tat" => "tir", "tgt" => "cis",
+my $trinca1;
+my $trinca2;
+my $proteina1;
+my $proteina2;
+my %codegenetico =("ttt" => "phe", "tct" => "ser", "tat" => "tir", "tgt" => "cis",
  								"ttc" => "phe", "tcc" => "ser", "tac" => "tir", "tgc" => "cis",
  								"tta" => "leu", "tca" => "ser", "taa" => "ter", "tga" => "ter",
  								"ttg" => "leu", "tcg" => "ser", "tag" => "ter", "tgg" => "trp",
@@ -18,14 +21,14 @@
  								"gtg" => "val", "gcg" => "ala", "gag" => "glu", "ggg" => "gli");
 
 print "Informe a primeira trinca:";
-my $trinca1 = lc <STDIN>;
+$trinca1 = lc <STDIN>;
 chomp($trinca1);
 print "Informe a segunda trinca:";
-my $trinca2 = lc <STDIN>;
+$trinca2 = lc <STDIN>;
 chomp($trinca2);
 
-my $proteina1 = $codegenetico{$trinca1};
-my $proteina2 = $codegenetico{$trinca2};
+$proteina1 = $codegenetico{$trinca1};
+$proteina2 = $codegenetico{$trinca2};
 
 if ($proteina1 eq $proteina2) {
     print uc$trinca1."->".uc$proteina1."\n";

@@ -7,6 +7,6 @@ print "Digite outro número:";
 my $num2 = <STDIN>;
 chomp($num2);
 
-for (my $q = $num1; $q <= $num2; $q++) {
+for (my $q = $num1+1; $q < $num2; $q++) {
   print $q."\n";
 }
