@@ -1,0 +1,17 @@
+1. Solicite ao usuário uma base nitrogenada, em seguida imprima o nome da base.
+
+Ex.: Informe uma base: A
+
+Output: Adenina
+
+2. Desenvolva um script que imprima em tela os valores inteiros entre 1-41 mas APENAS os ímpares.
+
+3. Desenvolva um script que calcule o conteúdo GC de uma sequência informada pelo usuário, utilizando matriz (@lista).
+
+4. Desenvolva um script para que o usuário informe a sequência de nucleotídeos, em seguida o script aplique o k-mer 4 na sequência. Garanta que só há A, T, G ou C na sequência.
+
+
+5. Desenvolva um programa que receba uma sequênciade DNA como argumento e faça a busca dela em uma segunda sequência, também informada pelo usuário. Caso o usuário a encontre, deve imprimir em tela a mensagem: "FOUND", caso contrário deve imprimir "NOT FOUND".
+
+
+6. Utilizando tabela hash, solicite ao usuário uma sequência de nucleotídeos e considerando a FRAME +1, converta os nucleotídeos em aminoácidos.
