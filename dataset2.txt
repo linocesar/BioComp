@@ -1,0 +1,10 @@
+>1
+agtaatttt
+atggttctt
+>2
+tcgttttcc
+>3
+tgatttaatt
+gtgccagatc
+ag
+>f
