@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use strict;
 use warnings;
 
@@ -29,7 +28,7 @@ open(my $arquivo, '<:encoding(UTF-8)', $filename)
 
     if($busca_flag == -1){
       $t = length $linha;
-      $somatamanho +=$t;
+      $somatamanho += $t;
     }
 
  }
@@ -53,4 +52,6 @@ foreach my $x (@ordem) {
     last;
   }
 }
-print "N50 = ".$N50."\n";
+my $min = scalar @ordem;
+print "N50\tBases\tMin\tMax\n";
+print $N50."\t".$soma."\t".$ordem[$min-1]."\t".$ordem[0]."\n";
