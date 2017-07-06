@@ -1,20 +1,35 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
+#github.com/linocesar
 
-my $dna1 = uc(<STDIN>);
-my $dna2 = uc(<STDIN>);
+use warnings;
+use strict;
 
-my @seq1 = split("", $dna1);
-my @seq2 = split("", $dna2);
+my $filename = $ARGV[0];
+my %sequencias;
+my $head;
+my $hamming;
 
-my $hamming = 0;
+open(my $arquivo, "<", $filename) or die "Não foi possível abrir o arquivo '$filename' $!";
 
-for(my $i = 0; $i < scalar @seq1; $i++ ){
+while(my $linha = <$arquivo>){
+  chomp($linha);
 
-if($seq1[$i] ne $seq2[$i])
-	{
-	$hamming++;
-	}
+  if($linha =~ />/){
+    $head = $linha;
+  }else{
+    $sequencias{$head} .= $linha."\n";
+  }
 
+}
+close($arquivo);
+
+my @seq = values %sequencias;
+
+for (my $tx = 0; $tx < length($seq[0]); $tx++) {
+
+      if(substr($seq[0], $tx, 1) ne substr($seq[1], $tx, 1)){
+          $hamming++;
+      }
 }
 
 print $hamming."\n";
