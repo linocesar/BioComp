@@ -69,8 +69,7 @@ print "Total LINES: \t$contlines\n";              #imprime o total de lines iden
 
 print "\n*********************************** Contagem Primatas ***********************************\n\n";
 
-
-foreach my $m (sort keys %macaco) {
+foreach my $m (sort keys %macaco) {               # imprime a contagem para cada macaco
   print $m.":    \t".$macaco{$m}."\n";
 }
 print "S2\n";
