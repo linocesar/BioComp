@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# execucao: perl itsrafa.pl <fasta> <lista>
+# execucao: perl my_index.pl <fasta> <lista>
 use warnings;
 use strict;
 
