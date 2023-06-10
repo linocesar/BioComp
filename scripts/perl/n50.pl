@@ -1,4 +1,9 @@
 #!/usr/bin/env perl
+
+# O N50 é uma medida estatística utilizada na análise de genomas e montagem de sequências.
+# Ele fornece uma estimativa do tamanho médio dos contigs (sequências contíguas) em um
+# conjunto de sequências montadas, oferecendo uma medida resumida da qualidade da montagem.
+
 use strict;
 use warnings;
 

@@ -2,6 +2,11 @@
 use strict;
 use warnings;
 
+# O kmer.pl é um script em Perl projetado para realizar a contagem de k-mers em uma sequência de DNA ou RNA.
+# Os k-mers são subsequências de tamanho k extraídas da sequência original, onde k é um valor inteiro especificado pelo usuário.
+# A contagem de k-mers é útil para várias análises e aplicações em bioinformática, como análise de similaridade de sequências,
+# detecção de padrões e identificação de regiões conservadas.
+
 my $sequencia = "GTGTCGATCGATAGTCGATCAGCTAGCTAGTCA";
 my $tamanho_sequencia = length $sequencia;
 my $kmer = 4;
