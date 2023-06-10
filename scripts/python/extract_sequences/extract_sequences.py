@@ -1,3 +1,9 @@
+# Extrai sequências específicas de um arquivo multi-FASTA com base em um arquivo de texto
+# contendo os identificadores das sequências a serem extraídas.
+
+# Exemplo de uso:
+# python3 extract_sequence.py input_file.fasta input_sequences.txt
+
 def extract_sequences(fasta_file, sequences_file, output_file):
     # Lendo as sequências do arquivo multi-FASTA
     sequences = {}
